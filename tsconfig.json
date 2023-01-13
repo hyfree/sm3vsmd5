@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+  
+    /* Language and Environment */
+    "target": "es2016",                                  
+    /* Modules */
+    "module": "commonjs",  
+    "allowJs": true,                           
+   
+    "esModuleInterop": true,                             
+    "forceConsistentCasingInFileNames": true,            
+
+    /* Type Checking */
+    "strict": true,                                     
+
+    /* Completeness */
+    // "skipDefaultLibCheck": true,                      
+    "skipLibCheck": true                                
+  },
+  "files": [
+    "src/index.ts"
+  ]
+}
