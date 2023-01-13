@@ -1,14 +1,26 @@
-lockfileVersion: 5.4
+lockfileVersion: 5.3
 
 specifiers:
+  crypto-js: ^4.1.1
+  cryptojs: ^2.5.3
   sm-crypto: ^0.3.11
   typescript: ^4.9.4
 
 dependencies:
+  crypto-js: 4.1.1
+  cryptojs: 2.5.3
   sm-crypto: registry.npmmirror.com/sm-crypto/0.3.11
   typescript: registry.npmmirror.com/typescript/4.9.4
 
 packages:
+
+  /crypto-js/4.1.1:
+    resolution: {integrity: sha512-o2JlM7ydqd3Qk9CA0L4NL6mTzU2sdx96a+oOfPu8Mkl/PK51vSyoi8/rQ8NknZtk44vq15lmhAj9CIAGwgeWKw==}
+    dev: false
+
+  /cryptojs/2.5.3:
+    resolution: {integrity: sha512-+rdPl1UCxE8s3R94NNn+zMKOiI4MJ7dyh3X0c5uBL3btDr4zQ6acd7f9mY7Wb5MrccZEi2Rrha3OEtLcc5XXog==}
+    dev: false
 
   registry.npmmirror.com/jsbn/1.1.0:
     resolution: {integrity: sha512-4bYVV3aAMtDTTu4+xsDYa6sy9GyJ69/amsu9sYF2zqjiEoZA5xJi3BrfX3uY+/IekIu7MwdObdbDWpoZdBv3/A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/jsbn/-/jsbn-1.1.0.tgz}
