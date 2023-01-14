@@ -27,7 +27,7 @@ If you find an error in my code or if you wish to submit another js-lib, you can
 ```js
 How much time do I need to calculate the hash of 1MB of data:
 index.js:53 
-index.js:54 sm_crypto=14783 ms
+index.js:54 sm_crypto(sm3)=14783 ms
 index.js:55 sm3-js=1962 ms
 index.js:56 md5-js=670 ms
 index.js:57 crypto-js_SHA256=823 ms
