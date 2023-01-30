@@ -33,3 +33,5 @@ index.js:56 md5-js=670 ms
 index.js:57 crypto-js_SHA256=823 ms
 index.js:58 Browser_SHA256=1 ms
 ```
+
+![image](https://user-images.githubusercontent.com/26597853/215422628-a408f72d-59aa-42c1-b034-ef2f4251b779.png)
