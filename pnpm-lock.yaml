@@ -3,13 +3,13 @@ lockfileVersion: 5.3
 specifiers:
   crypto-js: ^4.1.1
   cryptojs: ^2.5.3
-  sm-crypto: ^0.3.11
+  sm-crypto: ^0.3.12
   typescript: ^4.9.4
 
 dependencies:
   crypto-js: 4.1.1
   cryptojs: 2.5.3
-  sm-crypto: registry.npmmirror.com/sm-crypto/0.3.11
+  sm-crypto: 0.3.12
   typescript: registry.npmmirror.com/typescript/4.9.4
 
 packages:
@@ -22,18 +22,14 @@ packages:
     resolution: {integrity: sha512-+rdPl1UCxE8s3R94NNn+zMKOiI4MJ7dyh3X0c5uBL3btDr4zQ6acd7f9mY7Wb5MrccZEi2Rrha3OEtLcc5XXog==}
     dev: false
 
-  registry.npmmirror.com/jsbn/1.1.0:
-    resolution: {integrity: sha512-4bYVV3aAMtDTTu4+xsDYa6sy9GyJ69/amsu9sYF2zqjiEoZA5xJi3BrfX3uY+/IekIu7MwdObdbDWpoZdBv3/A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/jsbn/-/jsbn-1.1.0.tgz}
-    name: jsbn
-    version: 1.1.0
+  /jsbn/1.1.0:
+    resolution: {integrity: sha512-4bYVV3aAMtDTTu4+xsDYa6sy9GyJ69/amsu9sYF2zqjiEoZA5xJi3BrfX3uY+/IekIu7MwdObdbDWpoZdBv3/A==}
     dev: false
 
-  registry.npmmirror.com/sm-crypto/0.3.11:
-    resolution: {integrity: sha512-qBIyyTknmwfF8nStKHshL4Caw1AAfkar8B/voiEReENeCLtudbPt6B16QJ1mgAn1B4w0T+QDcu5XzGc7s22fWw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/sm-crypto/-/sm-crypto-0.3.11.tgz}
-    name: sm-crypto
-    version: 0.3.11
+  /sm-crypto/0.3.12:
+    resolution: {integrity: sha512-272PBzB4PYaBdeGa41TH9ZlMGLPVRmS36Gs4FjmHwXIdihQypAbhhFWZTaa/3de69q2KfMme1M5O2W5+spAdrg==}
     dependencies:
-      jsbn: registry.npmmirror.com/jsbn/1.1.0
+      jsbn: 1.1.0
     dev: false
 
   registry.npmmirror.com/typescript/4.9.4:
